@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad — Punto Radal Sync</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: #333; line-height: 1.7; background: #f9fafb; }
+        .container { max-width: 640px; margin: 0 auto; padding: 40px 20px; }
+        h1 { color: #06402B; margin-bottom: 4px; font-size: 1.8rem; }
+        .subtitle { color: #666; margin-bottom: 32px; }
+        h2 { color: #06402B; font-size: 1.1rem; margin: 24px 0 8px; }
+        p, li { margin-bottom: 8px; }
+        ul { padding-left: 20px; }
+        a { color: #06402B; }
+        .updated { color: #999; font-size: 0.85rem; margin-bottom: 24px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Política de Privacidad</h1>
+        <p class="subtitle">Punto Radal Sync</p>
+        <p class="updated">Última actualización: 18 de marzo de 2026</p>
+
+        <h2>1. Información que recopilamos</h2>
+        <p>Punto Radal Sync accede a los siguientes datos de su cuenta de Clover:</p>
+        <ul>
+            <li>Información de pagos procesados (monto, método de pago, fecha, resultado)</li>
+            <li>Información de órdenes asociadas a pagos</li>
+            <li>Datos básicos del comercio (nombre, identificador)</li>
+        </ul>
+
+        <h2>2. Cómo usamos la información</h2>
+        <p>Los datos se utilizan exclusivamente para:</p>
+        <ul>
+            <li>Generar reportes internos de conciliación de ventas</li>
+            <li>Comparar pagos digitales con registros del punto de venta</li>
+            <li>Detectar discrepancias en el registro de ventas</li>
+        </ul>
+
+        <h2>3. Almacenamiento de datos</h2>
+        <p>Todos los datos se almacenan en una base de datos PostgreSQL local, alojada en infraestructura propia del comercio. No se utilizan servidores en la nube de terceros para almacenar datos de Clover.</p>
+
+        <h2>4. Compartición de datos</h2>
+        <p><strong>No compartimos datos con terceros.</strong> La información obtenida de Clover se usa únicamente para fines internos del negocio y no se vende, alquila ni transfiere a ninguna otra entidad.</p>
+
+        <h2>5. Seguridad</h2>
+        <p>Implementamos las siguientes medidas de seguridad:</p>
+        <ul>
+            <li>Tokens de acceso OAuth 2.0 almacenados de forma segura en base de datos</li>
+            <li>Refresh automático de tokens (los tokens de acceso tienen expiración)</li>
+            <li>Acceso a la base de datos restringido por credenciales y red local</li>
+        </ul>
+
+        <h2>6. Retención de datos</h2>
+        <p>Los datos de pagos se retienen de forma indefinida como parte de los registros contables del negocio, conforme a las obligaciones fiscales argentinas.</p>
+
+        <h2>7. Sus derechos</h2>
+        <p>Como comerciante propietario de los datos, usted puede en cualquier momento:</p>
+        <ul>
+            <li>Solicitar la eliminación de datos sincronizados</li>
+            <li>Revocar el acceso de la aplicación desde el panel de Clover</li>
+            <li>Solicitar un export de los datos almacenados</li>
+        </ul>
+
+        <h2>8. Contacto</h2>
+        <p>Para consultas sobre esta política, contactar a:<br>
+        <a href="mailto:jonatanfells@gmail.com">jonatanfells@gmail.com</a></p>
+
+        <p style="text-align: center; color: #999; margin-top: 32px; font-size: 0.85rem;">
+            &copy; 2026 Punto Radal — El Bolsón, Río Negro, Argentina
+        </p>
+    </div>
+</body>
+</html>
